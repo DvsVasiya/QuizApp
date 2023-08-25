@@ -8,8 +8,89 @@
 </head>
 
 <body>
-  <div id="app"></div>
-  <h1>Quiz App</h1>
+  <div>
+
+    <div class="wrapper">
+      <div class="main-container">
+        <div class="main-container-option">
+          <div class="dashboard-option" id="quiz-popup">
+            <div class="dashboard-wrapper">
+              <span>Quiz Me!</span>
+              <span>challaenge your self for quiz with a topic of your choice</span>
+            </div>
+          </div>
+          <div class="dashboard-option">
+            <div class="dashboard-wrapper">
+              <span>History</span>
+              <span>view past quiz attemp</span>
+            </div>
+          </div>
+        </div>
+        <div class="Recent-activity">
+          <h3> Recent Activity</h3>
+        </div>
+
+
+      </div>
+
+    </div>
+
+
+
+
+    <!-- pop-up -->
+    <div class="popup" id="popup">
+      <div class="popup-content">
+        <button class="close" id="closePopup">&times;</button>
+
+        <div class="quiz-wrapper">
+
+          <div class="quiz-child">
+
+            <h4>Quiz Creation</h4>
+            <span>
+              Choose a Topic
+            </span>
+          </div>
+          <div class="quiz-child">
+            <label>Topic</label>
+            <select id="selectQuiz">
+              <option value="react">React</option>
+              <option value="javascript">javascript</option>
+              <option value="wb">web development</option>
+            </select>
+          </div>
+          <div class="quiz-child">
+            <label>number of question</label>
+            <select id="noOfQuestion">
+              <option>5</option>
+              <option>10</option>
+              <option>15</option>
+              <option>20</option>
+            </select>
+          </div>
+          <!-- <div class="quiz-btn quiz-child-btn"> -->
+          <div class="quiz-child">
+            <label>select Question choice</label>
+            <select id="questionChoice">
+              <option>Multiple</option>
+              <option>open Ended</option>
+            </select>
+            <!-- <button class="multiple-btn" id="multiple">Multiple choice</button>
+            <button class="true-false-btn">True/false</button> -->
+          </div>
+          <!-- </div> -->
+
+        </div>
+        <a href="Quiz.html">
+          <button class="submit-btn" id="submit">submit</button>
+        </a>
+      </div>
+    </div>
+
+
+    <!-- pop-up -->
+  </div>
 
   <script type="module" src="/main.js"></script>
 </body>

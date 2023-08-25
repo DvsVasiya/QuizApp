@@ -1,3 +1,128 @@
-h1 {
-  color: violet;
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.main-container {
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 10px;
+  /* width: 100%; */
+  /* border: 1px solid red; */
+}
+
+.wrapper {
+  /* width: 100%; */
+  display: flex;
+  border: 1px solid blue;
+  justify-content: center;
+}
+
+.main-container-option {
+  /* border: 1px solid; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+}
+
+.dashboard-option {
+  width: 430px;
+  /* border: 1px solid blue; */
+  display: flex;
+  flex-direction: column;
+}
+
+.dashboard-wrapper {
+  height: 78px;
+  /* border: 1px solid red; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  /* margin-left: 15px; */
+  box-shadow: 0px 0px 2px 1px gainsboro;
+  border-radius: 5px;
+  padding-left: 10px;
+  gap: 5px;
+  cursor: pointer;
+}
+
+
+.Recent-activity {
+  min-height: 400px;
+  box-shadow: 0px 0px 2px 1px gainsboro;
+  border-radius: 5px;
+}
+
+.popup {
+  display: none;
+  border: 1px solid black;
+  position: fixed;
+  top: 19%;
+  padding: 12px;
+  left: 40%;
+}
+
+.close {
+  position: absolute;
+  right: 16px;
+  border: none;
+  cursor: pointer;
+  background-color: gainsboro;
+  width: 20px;
+  height: 20px;
+}
+
+
+.quiz-child {
+  display: flex;
+  flex-direction: column;
+}
+
+.quiz-child span {
+  font-size: 10px;
+}
+
+.quiz-wrapper {
+  display: flex;
+  /* border: 1px solid; */
+  width: 252px;
+  height: 232px;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.quiz-child-btn {
+  display: flex;
+}
+
+.quiz-child-btn button {
+  width: 50%;
+  height: 28px;
+  font-size: 12px;
+}
+
+.multiple-btn {
+  background-color: black;
+  color: white;
+  text-decoration: none;
+  border: none;
+}
+
+.true-false-btn {
+  background-color: gainsboro;
+  color: black;
+  border: none;
+}
+
+.submit-btn {
+  background-color: black;
+  color: white;
+  text-decoration: none;
+  border: none;
+  margin-top: 20px;
+  height: 25px;
+  width: 74px;
 }
